@@ -26,3 +26,10 @@
 ## Entrega
 - [x] Gerar prompt para Lovable/WordPress
 - [x] Documentação de uso
+
+## Adaptação WordPress
+- [x] Criar estrutura de tema WordPress
+- [x] Gerar arquivos CSS customizados
+- [x] Criar template para Elementor
+- [x] Documentação de instalação WordPress
+- [ ] Commit e push para GitHub
