@@ -24,5 +24,5 @@
 - [x] Otimizações de performance
 
 ## Entrega
-- [ ] Gerar prompt para Lovable/WordPress
-- [ ] Documentação de uso
+- [x] Gerar prompt para Lovable/WordPress
+- [x] Documentação de uso
