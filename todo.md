@@ -32,4 +32,4 @@
 - [x] Gerar arquivos CSS customizados
 - [x] Criar template para Elementor
 - [x] Documentação de instalação WordPress
-- [ ] Commit e push para GitHub
+- [x] Commit e push para GitHub
