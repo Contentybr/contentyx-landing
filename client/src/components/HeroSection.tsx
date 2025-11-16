@@ -20,7 +20,7 @@ export default function HeroSection() {
         <div className="max-w-5xl mx-auto text-center space-y-8">
           {/* Logo */}
           <div className="flex justify-center mb-8 animate-fade-in">
-            <img src={APP_LOGO} alt="Contentyx" className="h-16 md:h-20 object-contain" />
+            <img src={APP_LOGO} alt="Contentyx" className="h-20 md:h-24 lg:h-28 object-contain" />
           </div>
 
           {/* Badge */}
