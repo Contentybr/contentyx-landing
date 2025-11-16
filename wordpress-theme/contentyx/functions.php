@@ -129,8 +129,29 @@ function contentyx_elementor_support() {
     
     // Suporte a largura total
     add_theme_support('align-wide');
+    
+    // Suporte a Elementor Pro
+    add_theme_support('elementor-pro');
 }
 add_action('after_setup_theme', 'contentyx_elementor_support');
+
+/**
+ * Registrar localizações do Elementor
+ */
+function contentyx_register_elementor_locations($elementor_theme_manager) {
+    $elementor_theme_manager->register_all_core_location();
+}
+add_action('elementor/theme/register_locations', 'contentyx_register_elementor_locations');
+
+/**
+ * Desabilitar Elementor em templates específicos
+ */
+function contentyx_elementor_canvas_templates($templates) {
+    $templates[] = 'page-templates/elementor-canvas.php';
+    $templates[] = 'page-templates/elementor-full-width.php';
+    return $templates;
+}
+add_filter('elementor/theme/templates', 'contentyx_elementor_canvas_templates');
 
 /**
  * Customizer - Opções do tema

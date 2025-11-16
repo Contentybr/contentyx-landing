@@ -33,3 +33,17 @@
 - [x] Criar template para Elementor
 - [x] Documentação de instalação WordPress
 - [x] Commit e push para GitHub
+
+## Correção WordPress
+- [ ] Corrigir CSS para ficar idêntico ao React
+- [ ] Adicionar Google Fonts (Inter)
+- [ ] Corrigir JavaScript e animações
+- [ ] Validar layout e cores
+- [ ] Commit e push da versão corrigida
+
+## Correção Elementor
+- [x] Criar template compatível com Elementor
+- [x] Adicionar função the_content() corretamente
+- [x] Criar template canvas para Elementor
+- [x] Testar compatibilidade
+- [ ] Atualizar no GitHub
