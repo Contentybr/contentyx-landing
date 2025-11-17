@@ -46,4 +46,14 @@
 - [x] Adicionar função the_content() corretamente
 - [x] Criar template canvas para Elementor
 - [x] Testar compatibilidade
-- [ ] Atualizar no GitHub
+- [x] Atualizar no GitHub
+
+## Recriação Tema WordPress (One Page)
+- [x] Criar style.css com header correto
+- [x] Criar functions.php com enqueue
+- [x] Criar header.php
+- [x] Criar footer.php
+- [x] Criar front-page.php (landing page)
+- [x] Criar index.php
+- [x] Testar e validar
+- [x] Atualizar ZIP e GitHub

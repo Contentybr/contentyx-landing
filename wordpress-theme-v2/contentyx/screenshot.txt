@@ -1,0 +1,8 @@
+Screenshot placeholder - WordPress requires a screenshot.png file (1200x900px)
+
+To add a proper screenshot:
+1. Take a screenshot of the landing page
+2. Resize to 1200x900 pixels
+3. Save as screenshot.png in the theme root directory
+
+For now, the theme will work without it, but WordPress admin won't show a preview.

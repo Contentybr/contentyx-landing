@@ -1,0 +1,468 @@
+/*
+Theme Name: Contentyx Landing Page
+Theme URI: https://github.com/Contentybr/contentyx-landing
+Author: Contentyx Team
+Author URI: https://contentyx.com.br
+Description: Modern one-page landing page theme for Contentyx SaaS. Dark theme with vibrant blue and orange gradients, optimized for conversion and fully responsive.
+Version: 2.0.0
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: contentyx
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-width-template, theme-options, translation-ready
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset & Base Styles
+2.0 - Typography
+3.0 - Layout
+4.0 - Components
+5.0 - Sections
+6.0 - Responsive
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 - Reset & Base Styles
+--------------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Contentyx Brand Colors */
+  --brand-blue-neon: #00A8FF;
+  --brand-blue-deep: #0057FF;
+  --brand-orange-neon: #FF8A00;
+  --brand-yellow-gold: #FFD33D;
+  
+  /* Neutral Colors */
+  --color-black: #000000;
+  --color-gray-dark: #1A1A1A;
+  --color-gray-medium: #333333;
+  --color-gray-light: #A3A3A3;
+  --color-white: #FFFFFF;
+  
+  /* Gradients */
+  --gradient-brand: linear-gradient(135deg, var(--brand-blue-neon) 0%, var(--brand-orange-neon) 100%);
+  
+  /* Spacing */
+  --section-padding: 80px;
+  --container-max-width: 1200px;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --glow-blue: 0 0 40px rgba(0, 168, 255, 0.3);
+  --glow-orange: 0 0 40px rgba(255, 138, 0, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/*--------------------------------------------------------------
+2.0 - Typography
+--------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--color-white);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 800;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--color-gray-light);
+}
+
+a {
+  color: var(--brand-blue-neon);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--brand-orange-neon);
+}
+
+strong {
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+/*--------------------------------------------------------------
+3.0 - Layout
+--------------------------------------------------------------*/
+
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.section {
+  padding: var(--section-padding) 0;
+}
+
+.section-dark {
+  background-color: var(--color-black);
+}
+
+.section-gray {
+  background-color: var(--color-gray-dark);
+}
+
+.section-gradient {
+  background: var(--gradient-brand);
+}
+
+/*--------------------------------------------------------------
+4.0 - Components
+--------------------------------------------------------------*/
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--gradient-brand);
+  color: var(--color-white);
+  box-shadow: var(--glow-blue);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--glow-orange);
+  color: var(--color-white);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-white);
+}
+
+.btn-secondary:hover {
+  background: var(--color-white);
+  color: var(--brand-blue-neon);
+}
+
+.btn-large {
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+}
+
+/* Cards */
+.card {
+  background: var(--color-gray-dark);
+  border: 1px solid var(--color-gray-medium);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: var(--brand-blue-neon);
+  box-shadow: var(--glow-blue);
+  transform: translateY(-4px);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-white);
+}
+
+.card-description {
+  color: var(--color-gray-light);
+  line-height: 1.6;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Forms */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  color: var(--color-white);
+  background: var(--color-gray-dark);
+  border: 2px solid var(--color-gray-medium);
+  border-radius: var(--radius-md);
+  transition: all 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--brand-blue-neon);
+  box-shadow: var(--glow-blue);
+}
+
+.form-input::placeholder {
+  color: var(--color-gray-light);
+}
+
+/* Utilities */
+.text-center {
+  text-align: center;
+}
+
+.text-gradient {
+  background: var(--gradient-brand);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mb-3 { margin-bottom: 3rem; }
+
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mt-3 { margin-top: 3rem; }
+
+/*--------------------------------------------------------------
+5.0 - Sections
+--------------------------------------------------------------*/
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--gradient-brand);
+  padding: 2rem 0;
+}
+
+.hero-logo {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.hero-title {
+  margin-bottom: 1.5rem;
+  color: var(--color-white);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Section Titles */
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--color-black);
+  padding: 3rem 0 2rem;
+  border-top: 1px solid var(--color-gray-medium);
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column h4 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: var(--color-white);
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-column ul li a {
+  color: var(--color-gray-light);
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: var(--brand-blue-neon);
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-gray-medium);
+  color: var(--color-gray-light);
+  font-size: 0.875rem;
+}
+
+/*--------------------------------------------------------------
+6.0 - Responsive
+--------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 60px;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --section-padding: 40px;
+  }
+  
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
