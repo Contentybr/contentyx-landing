@@ -1,0 +1,1236 @@
+{
+  "title": "Contentyx Landing Page - Completa",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "background_background": "classic",
+    "background_color": "#000000"
+  },
+  "content": [
+    {
+      "id": "hero_section",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#00A8FF",
+        "background_color_b": "#FF8A00",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "min_height": {
+          "unit": "vh",
+          "size": 100
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "hero_logo",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+            "image": {
+              "url": ""
+            },
+            "align": "center",
+            "width": {
+              "unit": "px",
+              "size": 450
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "hero_badge",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<div style='display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 9999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; font-size: 14px; font-weight: 500;'><span>✨</span> Ferramenta profissional para criadores de conteúdo</div>",
+            "align": "center",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "hero_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+            "title": "Crie conteúdo em volume <span style='background: linear-gradient(135deg, #00A8FF 0%, #FF8A00 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;'>com consistência</span> e estratégia",
+            "header_size": "h1",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_weight": "900",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.1
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "hero_subheading",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<p style='text-align: center; font-size: 22px; color: rgba(255,255,255,0.9); max-width: 800px; margin: 0 auto; line-height: 1.6;'>O Contentyx transforma briefing, branding e posicionamento do seu cliente em <strong style='color: #FFFFFF;'>roteiros prontos</strong>, estruturados para reter, engajar e crescer.</p>",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "50",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "hero_buttons",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 20
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "hero_cta_primary",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "Começar Teste Gratuito →",
+                "link": {
+                  "url": "#pricing"
+                },
+                "size": "lg",
+                "button_text_color": "#FFFFFF",
+                "background_color": "transparent",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "2",
+                  "right": "2",
+                  "bottom": "2",
+                  "left": "2",
+                  "isLinked": true
+                },
+                "border_color": "#FFFFFF",
+                "button_background_hover_color": "#FFFFFF",
+                "button_hover_color": "#00A8FF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700",
+                "button_box_shadow_box_shadow_type": "yes",
+                "button_box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 0,
+                  "blur": 30,
+                  "spread": 0,
+                  "color": "rgba(255, 255, 255, 0.2)"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "hero_cta_secondary",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "Ver Como Funciona",
+                "link": {
+                  "url": "#how-it-works"
+                },
+                "size": "lg",
+                "button_type": "outline",
+                "button_text_color": "#FFFFFF",
+                "border_color": "rgba(255,255,255,0.5)",
+                "button_background_hover_color": "rgba(255,255,255,0.1)",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "problems_section",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "problems_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+            "title": "Você está cansado de...",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_weight": "700",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "70",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "problems_grid",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 30
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "0",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "problem_card_1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(50% - 15px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem_icon_1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "⏰",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_title_1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Falta de tempo para planejar",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_text_1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Horas gastas pensando em pautas, pesquisando tendências e organizando calendários editoriais.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "problem_card_2",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(50% - 15px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem_icon_2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "🧠",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_title_2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Bloqueio criativo constante",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_text_2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Aquela sensação de \"não sei o que postar hoje\" que paralisa sua produção de conteúdo.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "problem_card_3",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(50% - 15px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem_icon_3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "📉",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_title_3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Inconsistência nas postagens",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_text_3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Semanas sem postar nada, perdendo relevância e engajamento com sua audiência.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "problem_card_4",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(50% - 15px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "40",
+                  "bottom": "40",
+                  "left": "40",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "problem_icon_4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "🎯",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_title_4",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Dificuldade em manter relevância",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "problem_text_4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Conteúdo genérico que não gera conexão nem resultados para seu negócio.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benefits_section",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#000000",
+        "padding": {
+          "unit": "px",
+          "top": "100",
+          "right": "20",
+          "bottom": "100",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "benefits_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+            "title": "A solução que você precisa",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_weight": "700",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "benefits_subtitle",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<p style='text-align: center; font-size: 20px; color: #A3A3A3; max-width: 700px; margin: 0 auto;'>Transforme sua produção de conteúdo com ferramentas profissionais</p>",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "70",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "benefits_grid",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": {
+              "unit": "px",
+              "size": 30
+            },
+            "max_width": {
+              "unit": "px",
+              "size": 1200
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "auto",
+              "bottom": "0",
+              "left": "auto",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "benefit_card_1",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(33.333% - 20px)",
+                "background_background": "gradient",
+                "background_color": "#00A8FF",
+                "background_color_b": "#FF8A00",
+                "background_gradient_angle": {
+                  "unit": "deg",
+                  "size": 135
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "30",
+                  "bottom": "40",
+                  "left": "30",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit_icon_1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "⚡",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_title_1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Produção em escala",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_text_1",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: rgba(255,255,255,0.9); font-size: 16px; line-height: 1.6;'>Gere dezenas de roteiros em minutos, mantendo qualidade e relevância.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "benefit_card_2",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(33.333% - 20px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "30",
+                  "bottom": "40",
+                  "left": "30",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit_icon_2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "🎯",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_title_2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Estratégia embutida",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_text_2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Cada roteiro segue uma estrutura comprovada para engajar e converter.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "benefit_card_3",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "flex_basis": "calc(33.333% - 20px)",
+                "background_background": "classic",
+                "background_color": "#1A1A1A",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#2A2A2A",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "40",
+                  "right": "30",
+                  "bottom": "40",
+                  "left": "30",
+                  "isLinked": false
+                }
+              },
+              "elements": [
+                {
+                  "id": "benefit_icon_3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "💎",
+                    "header_size": "div",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "20",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_title_3",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "isInner": false,
+                  "settings": {
+                    "title": "Consistência garantida",
+                    "header_size": "h3",
+                    "title_color": "#FFFFFF",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_weight": "600",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "15",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "benefit_text_3",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "isInner": false,
+                  "settings": {
+                    "editor": "<p style='color: #A3A3A3; font-size: 16px; line-height: 1.6;'>Nunca mais fique sem conteúdo para postar. Planeje semanas em horas.</p>"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta_middle",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#00A8FF",
+        "background_color_b": "#FF8A00",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "cta_middle_heading",
+          "elType": "widget",
+          "widgetType": "heading",
+          "isInner": false,
+          "settings": {
+            "title": "Quem tem método, vence na consistência",
+            "header_size": "h2",
+            "align": "center",
+            "title_color": "#FFFFFF",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 48
+            },
+            "typography_font_weight": "700",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "cta_middle_text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<p style='text-align: center; font-size: 20px; color: rgba(255,255,255,0.9); max-width: 700px; margin: 0 auto;'>Junte-se a centenas de criadores que já transformaram sua produção de conteúdo</p>",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "cta_middle_button",
+          "elType": "widget",
+          "widgetType": "button",
+          "isInner": false,
+          "settings": {
+            "text": "Começar Teste Gratuito →",
+            "link": {
+              "url": "#pricing"
+            },
+            "align": "center",
+            "size": "lg",
+            "button_text_color": "#00A8FF",
+            "background_color": "#FFFFFF",
+            "button_background_hover_color": "rgba(255,255,255,0.9)",
+            "border_radius": {
+              "unit": "px",
+              "top": "12",
+              "right": "12",
+              "bottom": "12",
+              "left": "12",
+              "isLinked": true
+            },
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_font_weight": "700",
+            "button_box_shadow_box_shadow_type": "yes",
+            "button_box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 30,
+              "spread": 0,
+              "color": "rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "footer_section",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A0A0A",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "footer_logo",
+          "elType": "widget",
+          "widgetType": "image",
+          "isInner": false,
+          "settings": {
+            "image": {
+              "url": ""
+            },
+            "align": "center",
+            "width": {
+              "unit": "px",
+              "size": 200
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "30",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "footer_text",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<p style='text-align: center; color: #666666; font-size: 14px;'>© 2025 Contentyx. Todos os direitos reservados.</p>",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "20",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "footer_links",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "isInner": false,
+          "settings": {
+            "editor": "<p style='text-align: center; font-size: 14px;'><a href='#' style='color: #A3A3A3; text-decoration: none; margin: 0 15px;'>Termos de Uso</a> | <a href='#' style='color: #A3A3A3; text-decoration: none; margin: 0 15px;'>Política de Privacidade</a> | <a href='#' style='color: #A3A3A3; text-decoration: none; margin: 0 15px;'>Contato</a></p>"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

@@ -57,3 +57,27 @@
 - [x] Criar index.php
 - [x] Testar e validar
 - [x] Atualizar ZIP e GitHub
+
+## Criação JSON Elementor
+- [x] Pesquisar estrutura JSON do Elementor
+- [x] Criar arquivo JSON com Hero Section
+- [x] Adicionar todas as seções ao JSON
+- [x] Validar formato JSON
+- [x] Testar importação
+- [x] Commit e push para GitHub
+
+## JSON Elementor Completo
+- [x] Acessar landing page publicada
+- [x] Analisar todas as 10 seções
+- [x] Criar JSON com Hero Section
+- [x] Criar JSON com Problems Section
+- [x] Criar JSON com Benefits Section
+- [x] Criar JSON com How It Works Section
+- [x] Criar JSON com Features Section
+- [x] Criar JSON com Testimonials Section
+- [x] Criar JSON com Pricing Section
+- [x] Criar JSON com FAQ Section
+- [x] Criar JSON com CTA Final
+- [x] Criar JSON com Footer
+- [x] Validar JSON completo
+- [ ] Commit e push
