@@ -80,4 +80,10 @@
 - [x] Criar JSON com CTA Final
 - [x] Criar JSON com Footer
 - [x] Validar JSON completo
+- [x] Commit e push
+
+## Prompt Hostinger Website Builder
+- [x] Criar prompt otimizado para Hostinger
+- [x] Incluir todas as seções da landing page
+- [x] Adaptar para formato de IA do Hostinger
 - [ ] Commit e push
